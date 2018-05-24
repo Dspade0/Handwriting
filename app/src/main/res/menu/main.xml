@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_recognize"
+        app:showAsAction="ifRoom"
+        android:title="Do it!" />
+
+    <item android:id="@+id/action_clear"
+        app:showAsAction="ifRoom"
+        android:title="Clear"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+    <item android:id="@+id/action_cancel"
+        app:showAsAction="ifRoom"
+        android:title="Undo"
+        android:icon="@android:drawable/ic_menu_revert" />
+
+    <item android:id="@+id/action_sync"
+        app:showAsAction="collapseActionView"
+        android:title="Sync" />
+
+    <item android:id="@+id/action_add"
+        app:showAsAction="collapseActionView"
+        android:title="Teach me"
+        android:icon="@android:drawable/ic_menu_save" />
+
+    <item android:id="@+id/action_options"
+        app:showAsAction="collapseActionView"
+        android:title="Options"
+        android:icon="@android:drawable/ic_menu_preferences" />
+
+</menu>
